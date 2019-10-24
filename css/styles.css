@@ -1,1 +1,9 @@
 @import url(bootstrap.min.css);
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://bit.ly/2WeHt5J");
+    color: white;
+}
