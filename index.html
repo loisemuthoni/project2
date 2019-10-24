@@ -13,17 +13,21 @@
     <div class="container">
         <div class="jumbotron text-center">
             <h1>Akan Names</h1>
-
         </div>
         <p>Akan names are derived from Ghanian culture.</p>
         <p>In Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
         <h2>Fill the form to know your akan name.</h2>
         <label>DAY</label>
-        <input type="text" id="day" placeholder="day in number" class="form-control" required><br>
+        <input type="number" id="day" placeholder="day in number" class="form-control" required min="1" max="31"><br>
         <label>MONTH</label>
-        <input type="text" id="month" placeholder="month in number." class="form-control" required><br>
+        <input type="number" id="month" placeholder="month in number." class="form-control" required min="1" max="12"><br>
         <label>YEAR</label>
-        <input type="text" id="year" placeholder="year in number" class="form-control" required><br>
+        <input type="text" id="year" placeholder="year in number" class="form-control" required><br><br>
+        <label>Gender</label><br>
+        <input type="radio" name="gender" id="gender" value="male" checked=""> Male<br>
+        <input type="radio" name="gender" id="gender" value="male" checked=""> Female<br>
+        <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="submition()">
+
     </div>
 </body>
 
