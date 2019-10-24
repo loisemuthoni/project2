@@ -24,7 +24,7 @@
 # Contact Info
 - Email: loisemburu01@gmail.com
 
-# license
+# License
 The MIT License (MIT)
 
 Copyright (c) 2019 Loise Muthoni
