@@ -25,3 +25,10 @@ h2 {
     color: white;
     text-align: center;
 }
+
+label {
+    color: lawngreen;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+}
