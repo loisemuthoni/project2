@@ -4,8 +4,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("https://bit.ly/2WeHt5J");
+    background-image: url("https://bit.ly/368BunQ");
     color: black;
+    height: 100vh;
+}
+
+h1 {
+    color: pink;
+    font-size: 60px;
 }
 
 p {
@@ -16,19 +22,22 @@ p {
 
 .jumbotron {
     height: 40px;
-    width: 300px;
+    width: 600px;
     margin: 0 auto;
+    background-color: darkblue;
 }
 
 h2 {
     font-size: 50px;
-    color: white;
+    color: darkblue;
     text-align: center;
 }
 
 label {
-    color: lawngreen;
+    color: black;
     font-weight: bold;
     text-align: center;
     width: 90%;
+    padding: 1%;
+    font-size: 20px;
 }
