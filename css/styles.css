@@ -4,7 +4,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("https://bit.ly/368BunQ");
+    background-image: url("https://bit.ly/2MJw4I0");
     color: black;
     height: 100vh;
 }
@@ -15,13 +15,13 @@ h1 {
 }
 
 p {
-    font-size: 40px;
+    font-size: 37px;
     color: white;
     text-align: center;
 }
 
 .jumbotron {
-    height: 40px;
+    height: 30px;
     width: 600px;
     margin: 0 auto;
     background-color: darkblue;
@@ -34,12 +34,12 @@ h2 {
 }
 
 label {
-    color: black;
+    color: white;
     font-weight: bold;
     text-align: center;
     width: 90%;
     padding: 1%;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .radio {
