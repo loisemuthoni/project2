@@ -41,3 +41,19 @@ label {
     padding: 1%;
     font-size: 20px;
 }
+
+.radio {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+.gen {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
