@@ -16,6 +16,10 @@
 - JS
 - BOOTSTRAP
 
+## BDD
+ <img src="images/landing.jpg" alt="landing">
+- When you want to get your akan name, enter the when you were born. Eg day: 2, month:3 year:2003 and your name then submit.If you want to reset you can just click reset.
+
 ## Known Bugs
 - No Known Bugs
 
