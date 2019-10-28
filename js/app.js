@@ -6,12 +6,17 @@ var maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwam
 
 var femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-function getDayOfWeek()
 var dd = document.getElementById("day").value;
 var mm = document.getElementById("month").value;
-var cc = document.getElementById("year").value
-var yy = document.getElementById("year").value
+var yy = document.getElementById("year").value;
+var date = new Date(yy + "-" + mm + "-" + dd);
+var daysOfWeek = date.getDay();
 var malegender = document.getElementsByName("male");
 var femalegender = document.getElementsByName("female");
 
-var result = parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;
+
+if (dd < 1 || dd > 31) {
+    alert("invalid day");
+} else if (mm < 1 || mm > 12) {
+    alert("invalid month");
+}
