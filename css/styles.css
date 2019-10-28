@@ -9,6 +9,10 @@ body {
     height: 100vh;
 }
 
+#output {
+    color: red;
+}
+
 h1 {
     color: pink;
     font-size: 44px;
