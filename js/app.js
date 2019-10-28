@@ -15,7 +15,7 @@ submit.addEventListener("click", function() {
     var male = document.getElementsByName("male");
     var female = document.getElementsByName("female");
     var output = document.getElementById("output");
-    var name = document.getElementById("name");
+    var name = document.getElementById("name").value;
 
     if (dd < 1 || dd > 31) {
         alert("invalid day");
@@ -25,8 +25,8 @@ submit.addEventListener("click", function() {
     } else if (yy.toString().length !== 4) {
         alert("invalid year");
     } else if (male.checked) {
-        output.innerHTML = "Hey name! Your Akan Name Is " + maleAkanNames[daysOfWeek];
+        output.innerHTML = "Hey!" + name + ". Your Akan Name Is " + maleAkanNames[daysOfWeek];
     } else {
-        output.innerHTML = "Hey name! Your Akan Name Is " + femaleAkanNames[daysOfWeek];
+        output.innerHTML = "Hey!" + name + ". Your Akan Name Is " + femaleAkanNames[daysOfWeek];
     }
 })
