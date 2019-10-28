@@ -11,12 +11,14 @@ body {
 
 h1 {
     color: pink;
-    font-size: 60px;
+    font-size: 44px;
     font-weight: bold;
+    text-align: center;
+    font-family: 'Poller One', cursive;
 }
 
 p {
-    font-size: 37px;
+    font-size: 30px;
     color: white;
     text-align: center;
 }
@@ -29,8 +31,8 @@ p {
 }
 
 h2 {
-    font-size: 50px;
-    color: darkblue;
+    font-size: 40px;
+    color: white;
     text-align: center;
 }
 
@@ -57,4 +59,8 @@ label {
     color: white;
     font-size: 30px;
     text-align: center;
+}
+
+.btn-primary {
+    width: 20%
 }
