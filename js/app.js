@@ -1,6 +1,6 @@
 var submit = document.getElementById("submit");
 
-var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 var maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
@@ -11,14 +11,20 @@ var mm = document.getElementById("month").value;
 var yy = document.getElementById("year").value;
 var date = new Date(yy + "-" + mm + "-" + dd);
 var daysOfWeek = date.getDay();
-var malegender = document.getElementsByName("male");
-var femalegender = document.getElementsByName("female");
-
+var male = document.getElementsByName("male");
+var female = document.getElementsByName("female");
+var output = document.getElementById("output");
 
 if (dd < 1 || dd > 31) {
     alert("invalid day");
+
 } else if (mm < 1 || mm > 12) {
     alert("invalid month");
+
 } else if (yy.toString().length !== 4) {
     alert("invalid year");
+} else if (male.checked) {
+    output.innerHTML("Hey! Your Akan Name Is " + maleAkanNames[daysOfWeek])
+} else {
+    output.innerHTML("Hey! Your Akan Name Is " + femaleAkanNames[daysOfWeek])
 }
