@@ -16,10 +16,8 @@
 - JS
 - BOOTSTRAP
 
-# BDD
--lljljljljjlklkk
--
--
+## Known Bugs
+- No Known Bugs
 
 # Contact Info
 - Email: loisemburu01@gmail.com
