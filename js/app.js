@@ -19,4 +19,6 @@ if (dd < 1 || dd > 31) {
     alert("invalid day");
 } else if (mm < 1 || mm > 12) {
     alert("invalid month");
+} else if (yy.toString().length !== 4) {
+    alert("invalid year");
 }
