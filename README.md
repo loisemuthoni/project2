@@ -24,6 +24,9 @@
 ## Known Bugs
 - No Known Bugs
 
+## Live Link
+- https://loisemuthoni.github.io/project2/
+
 # Contact Info
 - Email: loisemburu01@gmail.com
 
