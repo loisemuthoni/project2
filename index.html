@@ -18,23 +18,25 @@
         <p>In Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
         <h2>Fill the form to know your akan name.</h2>
         <form>
+            <p id="output"></p>
             <label>DAY</label>
             <input type="number" id="day" placeholder="day in number" class="form-control" required min="1" max="31">
             <label>MONTH</label>
             <input type="number" id="month" placeholder="month in number." class="form-control" required min="1" max="12">
             <label>YEAR</label>
-            <input type="text" id="year" placeholder="year in number" class="form-control" required><br>
+            <input type="number" id="year" placeholder="year in number" class="form-control" required><br>
             <label>Enter Your first Name.</label>
             <input type="text" class="form-control" id="name" placeholder="Enter" required>
             <label>GENDER</label>
             <div class="radio">
-                <input type="radio" name="gender" id="gender" value="male" checked=""><span class="gen">Male</span><br>
-                <input type="radio" name="gender" id="gender" value="male" checked=""><span class="gen">Female</span><br>
+                <input type="radio" name="gender" id="gender" value="male" checked=""><span class="gen">Male</span>
+                <input type="radio" name="gender" id="gender" value="male" checked=""><span class="gen">Female</span>
             </div>
-            <input type="submit" value="Submit" class="btn btn-primary btn-lg" id="submit" onclick="display()">
+            <a href="#" class="btn btn-primary" id="submit">Submit</a>
+            <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
         </form>
     </div>
-    <script src="js/app.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
 </body>
 
 </html>
