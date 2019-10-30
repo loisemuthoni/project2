@@ -12,8 +12,8 @@ submit.addEventListener("click", function() {
     var yy = document.getElementById("year").value;
     var date = new Date(yy + "-" + mm + "-" + dd);
     var daysOfWeek = date.getDay();
-    var male = document.getElementsByName("male");
-    var female = document.getElementsByName("female");
+    var male = document.getElementById("male");
+    var female = document.getElementById("female");
     var output = document.getElementById("output");
     var name = document.getElementById("name").value;
 
